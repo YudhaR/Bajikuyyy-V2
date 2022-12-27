@@ -1,0 +1,237 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body{
+    background:#eee;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding:1rem 0;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.heading span{
+    background: orange;
+    color:#fff;
+    display: inline-block;
+    padding:.2rem 2rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    border:.14rem solid black;
+    color: black;
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover{
+    background: orange;
+    color:#fff;
+}
+
+
+
+/* Navbar Start */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    background-color: #fff;
+}
+
+.daftar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+    padding: 0px 100px 0px 0px;
+}
+
+.daftar li {
+    list-style-type: none;
+    padding: 10px 12px;
+}
+
+.daftar li a {
+    display: block;
+    color: #1a1a1a;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.daftar>li:hover {
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.daftar>li>a:hover {
+    color: #fff;
+}
+
+
+
+.dropdown {
+    display: none;
+    margin: 10px 0px;
+}
+
+.daftar>li:hover .dropdown{
+    display:block;
+    position: absolute;
+    background-color: #fff;
+    border-radius:  0px 4px 4px 4px;
+}
+
+.daftar>li>a{
+    font-weight:800;
+}
+
+.daftar>li>a:hover {
+    color: #fff;
+    font-weight: bolder;
+    
+}
+
+.daftar>li {
+    margin: 5px;
+}
+
+.logo::selection {
+    color: none;
+    background: none;
+}
+
+/*Navbar End*/
+
+/*Jelajah Start*/
+
+.list-harga{
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.listharga, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.list-harga thead tr th{
+    padding: 10px;
+    background-color: #fedc49;
+}
+
+th:first-child{
+    width:5%;
+}
+
+td{
+    padding: 10px;
+    background-color: #fedc49aa;
+}
+
+.box {
+    width: 1200px;
+    margin: auto;
+}
+
+.kotak {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kotak1 {
+    width: 277.5px;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.kotak1:hover{
+    outline: .2rem solid black;
+}
+
+.jeda {
+    width: 30px;
+}
+
+.kotak img {
+    width: 100%;
+}
+
+
+.row {
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+h6 {
+    margin: 0;
+    padding: 10px 10px;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+/*Jelajah End*/
+
+/* Footer Start */
+
+.footer{
+    background: #fff;
+}
+
+
+.footer .credit{
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.footer .credit span{
+    color:orange;
+}
+
+/* Footer End */
